@@ -7,18 +7,25 @@
 //
 
 import UIKit
+import HHStaticThumbSliderView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var hhStaticSliderViewWithBlackThumb: HHStaticThumbSliderView!
+    @IBOutlet weak var hhStaticSliderViewWithGreenThumb: HHStaticThumbSliderView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        hhStaticSliderViewWithBlackThumb.onSelect = onBlackThumbSelect
+        hhStaticSliderViewWithGreenThumb.onSelect = onGreenThumbSelect
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func onBlackThumbSelect(index: Int) {
+        print("Black thumb tapped with index: \(index)")
     }
-
+    
+    func onGreenThumbSelect(index: Int) {
+        print("Green thumb tapped with index: \(index)")
+    }
 }
 
