@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHStaticThumbSliderView_Example' do
+  pod 'HHStaticThumbSliderView', :path => '../'
+
+  target 'HHStaticThumbSliderView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
