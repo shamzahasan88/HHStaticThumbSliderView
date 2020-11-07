@@ -171,7 +171,7 @@
 		6C8027F62283E21C8CACF2E50A91B91D /* HHStaticThumbSliderView */ = {
 			isa = PBXGroup;
 			children = (
-				BA2C362C25570BC300CC61E2 /* HHStaticThumbSliderView.swift */,
+				BA2C362E255727E000CC61E2 /* Classes */,
 				32CCA8B02BCBD16C502E447AEB6105FC /* Pod */,
 				18A9F659385DC6C96D9A717C4FD4FAA4 /* Support Files */,
 			);
@@ -185,6 +185,14 @@
 				6C8027F62283E21C8CACF2E50A91B91D /* HHStaticThumbSliderView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA2C362E255727E000CC61E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA2C362C25570BC300CC61E2 /* HHStaticThumbSliderView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BB42C87157D242667AD8E9D11B7DB1EC /* Pods-HHStaticThumbSliderView_Example */ = {
