@@ -29,9 +29,11 @@ pod 'HHStaticThumbSliderView'
 - Drop a UIView in UIViewController
 
 - Assign `HHStaticThumbSliderView` as Class to that view
-![](http://appforshare.io/github-assets/AssignClassAndModule.jpg    )
+
+![](http://appforshare.io/github-assets/AssignClassAndModule.jpg)
 
 - Assign properties in `HHStaticThumbSliderView` inspector
+
 ![](http://appforshare.io/github-assets/inspector.png)
 
 - To get tap on thumbs, first import  `HHStaticThumbSlider"` and assign outlet in your view controller's class
@@ -42,7 +44,9 @@ import HHStaticThumbSliderView
 @IBOutlet weak var hhStaticSliderViewWithBlackThumb: HHStaticThumbSliderView!
 
 ```
+
 - In `viewDidLoad` assign a method to "onSelect" property of `HHStaticThumbSliderView`
+
 ```
 override func viewDidLoad() {
     super.viewDidLoad()
