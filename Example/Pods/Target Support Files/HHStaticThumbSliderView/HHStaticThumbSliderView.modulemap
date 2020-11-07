@@ -1,0 +1,6 @@
+framework module HHStaticThumbSliderView {
+  umbrella header "HHStaticThumbSliderView-umbrella.h"
+
+  export *
+  module * { export * }
+}

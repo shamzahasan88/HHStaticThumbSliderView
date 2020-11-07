@@ -1,0 +1,16 @@
+PODS:
+  - HHStaticThumbSliderView (0.1.0)
+
+DEPENDENCIES:
+  - HHStaticThumbSliderView (from `../`)
+
+EXTERNAL SOURCES:
+  HHStaticThumbSliderView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHStaticThumbSliderView: 5030e30c676a01eb14db0146a5160f6d23440f43
+
+PODFILE CHECKSUM: bdce8da5cd5bad2bd090e3056517259978a47b2f
+
+COCOAPODS: 1.9.3

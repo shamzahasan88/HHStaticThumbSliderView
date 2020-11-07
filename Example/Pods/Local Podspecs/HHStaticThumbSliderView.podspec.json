@@ -1,0 +1,22 @@
+{
+  "name": "HHStaticThumbSliderView",
+  "version": "0.1.0",
+  "summary": "A short description of HHStaticThumbSliderView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shamzahasan88/HHStaticThumbSliderView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shamzahasan88": "shamzahasan88@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shamzahasan88/HHStaticThumbSliderView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HHStaticThumbSliderView/Classes/**/*"
+}
