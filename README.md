@@ -20,17 +20,21 @@ it, simply add the following line to your Podfile:
 pod 'HHStaticThumbSliderView'
 ```
 
+## Preview
+
+![](http://appforshare.io/github-assets/sample.gif)
+
 ## How to use
 
 - Drop a UIView in UIViewController
 
-- Assign "HHStaticThumbSliderView" as Class to that view
-![](https://drive.google.com/file/d/1qE8iYBPr9Zn6zgncdidNyeEh5oQ5Gngg/view?usp=sharing)
+- Assign `HHStaticThumbSliderView` as Class to that view
+![](http://appforshare.io/github-assets/AssignClassAndModule.jpg    )
 
-- Assign properties in HHStaticThumbSliderView's inspector
-![](https://drive.google.com/file/d/1PXSKty8k5ecWzx-UwznYg3d7mlPfqcMD/view?usp=sharing)
+- Assign properties in `HHStaticThumbSliderView` inspector
+![](http://appforshare.io/github-assets/inspector.png)
 
-- To get tap on thumbs, first import  "HHStaticThumbSlider" and assign outlet in your view controller's class
+- To get tap on thumbs, first import  `HHStaticThumbSlider"` and assign outlet in your view controller's class
 
 ```
 import HHStaticThumbSliderView
@@ -38,7 +42,7 @@ import HHStaticThumbSliderView
 @IBOutlet weak var hhStaticSliderViewWithBlackThumb: HHStaticThumbSliderView!
 
 ```
-- In "viewDidLoad:" assign a method to "onSelect" property of "HHStaticThumbSliderView"
+- In `viewDidLoad` assign a method to "onSelect" property of `HHStaticThumbSliderView`
 ```
 override func viewDidLoad() {
     super.viewDidLoad()
@@ -52,7 +56,7 @@ func onBlackThumbSelect(index: Int) {
 
 ## Author
 
-shamzahasan88, shamzahasan88@gmail.com
+Hamza Hasan, shamzahasan88, shamzahasan88@gmail.com
 
 ## License
 
