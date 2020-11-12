@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/HHStaticThumbSliderView.svg?style=flat)](https://cocoapods.org/pods/HHStaticThumbSliderView)
 [![Platform](https://img.shields.io/cocoapods/p/HHStaticThumbSliderView.svg?style=flat)](https://cocoapods.org/pods/HHStaticThumbSliderView)
 
+![](http://appforshare.io/github-assets/Logo__.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -36,7 +36,7 @@ pod 'HHStaticThumbSliderView'
 
 ![](http://appforshare.io/github-assets/inspector.png)
 
-- To get tap on thumbs, first import  `HHStaticThumbSlider"` and assign outlet in your view controller's class
+- To get tap on thumbs, first import  `HHStaticThumbSlider` and assign outlet in your view controller's class
 
 ```
 import HHStaticThumbSliderView
